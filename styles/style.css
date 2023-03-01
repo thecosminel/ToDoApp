@@ -1,0 +1,119 @@
+/* *{
+    background-color: rgb(138, 234, 251);
+} */
+
+ul{
+    padding: 0;
+}
+
+body{
+    margin: auto;
+    width: 390px;
+    height: 844px;
+    background-color: aliceblue;
+}
+
+.centered{
+    width: max-content;
+    height: max-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header{
+    border-top: 100px solid aliceblue;
+    font-size: 50px;
+    font-family: 'Open Sans Condensed', sans-serif; 
+    color: #333;
+}
+
+#pickaxe{
+    margin-top: 50px;
+    font-size: 40px;
+    font-family: 'Open Sans Condensed', sans-serif; 
+}
+
+#logo{
+    width: 60px;
+    height: 60px;
+}
+
+#reloadButton{
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+#mainContent{
+    margin-top: 50px;
+    height: max-content;
+}
+
+.formStyle{
+    font-size: 20px;
+    font-family: 'Open Sans Condensed', sans-serif; 
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid rgb(68, 66, 68);
+    border-radius: 10px;
+    background-color: rgba(214, 246, 253, 0.454);
+}
+
+#button:hover {background-color: #7feaf9}
+
+#new-task{
+    width: 270px;
+    margin-top: 10px;
+}
+
+
+/* Task List */
+#task-list{
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    list-style-type: none;
+    height: max-content;
+}
+
+#task-list-item{
+    display: flex;
+    margin: 10px;
+    border: 3px solid #333;
+}
+
+#label{
+    padding: 5px; 
+    font-family: 'Open Sans Condensed', sans-serif; 
+    width: max-content;
+}
+
+.task-title{
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    background-color: aliceblue;
+    outline: none;
+    
+}
+
+/* Edit & Delete */
+#modify-parent{
+    width: max-content;
+    margin-left: auto;
+    padding: 5px;
+}
+
+.button{
+    margin-left: 5px;
+    margin-right: 5px;
+    
+}
+
+.button:hover {background-color: #7feaf9}
+
